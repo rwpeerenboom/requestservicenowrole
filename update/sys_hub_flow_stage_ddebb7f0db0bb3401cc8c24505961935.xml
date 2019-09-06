@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_stage">
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <component_indexes>2</component_indexes>
+        <duration>1970-01-02 00:00:00</duration>
+        <flow display_value="Request Role For ServiceNow User">64eb77f0db0bb3401cc8c2450596193d</flow>
+        <label>Pending Approval</label>
+        <order>0</order>
+        <stage_id>afa9127a-498b-4b43-9b81-8333c5378b2c</stage_id>
+        <states>{"pending":"Pending - has not started","inprogress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_class_name>sys_hub_flow_stage</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-01 20:11:39</sys_created_on>
+        <sys_id>ddebb7f0db0bb3401cc8c24505961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pending Approval</sys_name>
+        <sys_package display_value="RequestServiceNowRole" source="x_snc_requestservi">6d42cf6cdbcb33401cc8c245059619b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RequestServiceNowRole">6d42cf6cdbcb33401cc8c245059619b8</sys_scope>
+        <sys_update_name>sys_hub_flow_stage_ddebb7f0db0bb3401cc8c24505961935</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-01 20:11:39</sys_updated_on>
+        <type>standard</type>
+        <value>Pending Approval</value>
+    </sys_hub_flow_stage>
+</record_update>

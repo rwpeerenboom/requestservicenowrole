@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">59c596bcdb8f73401cc8c2450596191b</block>
+        <comment/>
+        <connected_to>fb1a0aa7-a591-4e64-827d-2a934796e662</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Request Role For ServiceNow User">50c87be8db0373401cc8c24505961984</flow>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-01 12:45:28</sys_created_on>
+        <sys_id>d9c596bcdb8f73401cc8c24505961929</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RequestServiceNowRole" source="x_snc_requestservi">6d42cf6cdbcb33401cc8c245059619b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RequestServiceNowRole">6d42cf6cdbcb33401cc8c245059619b8</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_d9c596bcdb8f73401cc8c24505961929</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-08-29 20:14:43</sys_updated_on>
+        <ui_id>54f754aa-d5bc-47b0-ba54-545e2f944131</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d9c596bcdb8f73401cc8c24505961929"/>
+</record_update>

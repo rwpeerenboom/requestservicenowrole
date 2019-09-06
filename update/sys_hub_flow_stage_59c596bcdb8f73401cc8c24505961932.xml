@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_stage">
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <component_indexes>6</component_indexes>
+        <duration>1970-01-02 00:00:00</duration>
+        <flow display_value="Request Role For ServiceNow User">50c87be8db0373401cc8c24505961984</flow>
+        <label>Rejected</label>
+        <order>2</order>
+        <stage_id>f82d7731-cdcf-47e1-9d8d-f41c7ba45288</stage_id>
+        <states>{"pending":"Pending - has not started","inprogress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_class_name>sys_hub_flow_stage</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-01 12:45:28</sys_created_on>
+        <sys_id>59c596bcdb8f73401cc8c24505961932</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Rejected</sys_name>
+        <sys_package display_value="RequestServiceNowRole" source="x_snc_requestservi">6d42cf6cdbcb33401cc8c245059619b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RequestServiceNowRole">6d42cf6cdbcb33401cc8c245059619b8</sys_scope>
+        <sys_update_name>sys_hub_flow_stage_59c596bcdb8f73401cc8c24505961932</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-01 20:17:33</sys_updated_on>
+        <type>standard</type>
+        <value>Rejected</value>
+    </sys_hub_flow_stage>
+</record_update>

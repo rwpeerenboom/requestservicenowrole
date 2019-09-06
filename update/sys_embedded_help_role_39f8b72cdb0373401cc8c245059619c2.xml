@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="sn_dd_requestservicenowrole_tablesforms" name="sn_dd_requestservicenowrole_tablesforms">b5f8b72cdb0373401cc8c245059619bf</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-01 01:20:22</sys_created_on>
+        <sys_id>39f8b72cdb0373401cc8c245059619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b5f8b72cdb0373401cc8c245059619bf</sys_name>
+        <sys_package display_value="RequestServiceNowRole" source="x_snc_requestservi">6d42cf6cdbcb33401cc8c245059619b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RequestServiceNowRole">6d42cf6cdbcb33401cc8c245059619b8</sys_scope>
+        <sys_update_name>sys_embedded_help_role_39f8b72cdb0373401cc8c245059619c2</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-01 01:20:22</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

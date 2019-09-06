@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Add role to user record</description>
+        <internal_name>request_role_for_servicenow_user</internal_name>
+        <label_cache>[{"name":"21052647-868d-4fa5-9db9-a3d293f7e95a.Catalog Task","label":"4.1➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id"},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference"},{"name":"72a97246-5da3-4417-ac37-6781a0b6582d.Catalog Task","label":"1➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id"},{"name":"24a70bdd-88c1-444d-999e-417c91043eeb.select_the_role","label":"1➛select_the_role","reference":"sys_user_role","reference_display":"Role","type":"reference","base_type":"reference"},{"name":"24a70bdd-88c1-444d-999e-417c91043eeb.select_role_for_this_user","label":"1➛select_role_for_this_user","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"7bb05abb-f81f-4eb3-a9e0-490687b404cc.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"24a70bdd-88c1-444d-999e-417c91043eeb.select_role_for_this_user.manager","label":"1➛select_role_for_this_user➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"730ce159-22ee-40bf-bee0-1c8f6d23d047.record","label":"3.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"730ce159-22ee-40bf-bee0-1c8f6d23d047.table_name","label":"3.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"3e66cc7a-cabf-4c55-8c42-171a40e230d1.record","label":"3.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"3e66cc7a-cabf-4c55-8c42-171a40e230d1.table_name","label":"3.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"0b218e79-7b04-4363-b849-76c88390de01.record","label":"3.1➛User Role Record","reference":"sys_user_has_role","reference_display":"User Role","type":"reference","base_type":"reference"},{"name":"0b218e79-7b04-4363-b849-76c88390de01.table_name","label":"3.1➛User Role Table","reference":"sys_user_has_role","reference_display":"User Role","type":"table_name","base_type":"table_name"}]</label_cache>
+        <master>true</master>
+        <name>Request Role For ServiceNow User</name>
+        <outputs/>
+        <parent_flow display_value="Request Role For ServiceNow User">50c87be8db0373401cc8c24505961984</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-01 20:11:36</sys_created_on>
+        <sys_id>64eb77f0db0bb3401cc8c2450596193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Role For ServiceNow User</sys_name>
+        <sys_package display_value="RequestServiceNowRole" source="x_snc_requestservi">6d42cf6cdbcb33401cc8c245059619b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RequestServiceNowRole">6d42cf6cdbcb33401cc8c245059619b8</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_64eb77f0db0bb3401cc8c2450596193d</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-01 20:11:36</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=64eb77f0db0bb3401cc8c2450596193d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=64eb77f0db0bb3401cc8c2450596193d"/>
+</record_update>
